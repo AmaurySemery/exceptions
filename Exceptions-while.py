@@ -7,7 +7,7 @@ while bonrep == False:
     # year est un string / chaîne de caractères
     # on test si year vaut 2000
     # '2000' =/= 2000
-    if year == 2000:
+    if year == "2000":
         print("Bien joué !")
     try:
         yearnew=int(year)+10
