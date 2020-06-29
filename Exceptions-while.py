@@ -4,6 +4,11 @@ bonrep = False
 
 while bonrep == False:
     year = input("Date ? >")
+    # year est un string / chaîne de caractères
+    # on test si year vaut 2000
+    # '2000' =/= 2000
+    if year == 2000:
+        print("Bien joué !")
     try:
         yearnew=int(year)+10
         print(yearnew)
